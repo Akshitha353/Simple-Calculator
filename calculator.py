@@ -6,3 +6,7 @@ if __name__ == "__main__":
     x = int(input("Enter first number: "))
     y = int(input("Enter second number: "))
     print("Sum:", add(x, y))
+    
+def multiply(a, b):
+    return a * b
+    print("Product: ", multiply(x,y))
